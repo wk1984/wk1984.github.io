@@ -1,0 +1,296 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0020)http://ncl.ucar.edu/ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><HTML 
+xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+	 <TITLE>CISL's NCAR Command Language (NCL)</TITLE>	 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842"></HEAD> 
+<BODY><MAP name="center"><AREA href="http://ncl.ucar.edu/Applications/unique.shtml#ex3" 
+  shape="rect" coords="328,8,502,113"> <AREA href="http://ncl.ucar.edu/Applications/taylor.shtml#ex8" 
+  shape="rect" coords="514,8,650,146"> <AREA href="http://ncl.ucar.edu/Applications/trimesh.shtml" 
+  shape="rect" coords="318,109,453,273"> <AREA href="http://ncl.ucar.edu/Applications/polyg.shtml#ex2" 
+  shape="rect" coords="464,157,651,300"> <AREA href="http://ncl.ucar.edu/Applications/xy.shtml#ex18" 
+  shape="rect" coords="313,281,478,371"> <AREA href="http://ncl.ucar.edu/Applications/skewt.shtml#ex2" 
+  shape="rect" coords="335,385,471,514"> <AREA href="http://ncl.ucar.edu/Applications/wrfgsn.shtml#ex6" 
+  shape="rect" coords="496,311,652,448"> </MAP>		 <!-- main navigation include -->
+		 <!-- NCL CSS -->	 <LINK href="CISL's%20NCAR%20Command%20Language%20(NCL)_files/ncl.css" 
+rel="stylesheet" type="text/css" media="all">				 <!-- Equal Height Columns -->
+		 
+<SCRIPT src="CISL's%20NCAR%20Command%20Language%20(NCL)_files/column_height_equal.js" type="text/javascript"></SCRIPT>
+				 <!-- DOJO Expandable Tree Nav -->		 
+<SCRIPT src="CISL's%20NCAR%20Command%20Language%20(NCL)_files/dojo.js" type="text/javascript"></SCRIPT>
+		 
+<SCRIPT type="text/javascript">
+		
+		dojo.require("dojo.widget.TreeV3");
+		dojo.require("dojo.widget.TreeNodeV3");
+		dojo.require("dojo.widget.TreeLinkExtension");
+		dojo.require("dojo.widget.TreeBasicControllerV3");
+		dojo.hostenv.writeIncludes();
+
+		</SCRIPT>
+				 
+<DIV id="top_colorbar"><!-- begin top_colorbar -->		 </DIV><!-- end top_colorbar -->
+	 
+<DIV id="nav_org_wrap"><!-- begin nav_org_wrap -->	 
+<DIV id="nav_org"><!-- begin nav_org -->		 
+<UL class="menubar">
+  <LI><A class="trigger" href="http://ncl.ucar.edu/internal/">&nbsp;</A></LI>
+  <LI><A class="trigger" href="http://www.ncar.ucar.edu/">NCAR</A></LI>
+  <LI><A class="trigger" href="http://www.cisl.ucar.edu/">CISL</A></LI>
+  <LI><A class="trigger" href="http://www.vets.ucar.edu/">VETS</A></LI></UL></DIV><!-- end nav_org -->
+	 
+<DIV id="search"><!-- begin search -->		 
+<UL class="menubar">
+  <LI><A class="trigger" href="http://ncl.ucar.edu/Download/">Download</A></LI>
+  <LI><A class="trigger" 
+  href="http://ncl.ucar.edu/contributors.shtml">Contributors</A></LI></UL></DIV><!-- end search -->
+	 </DIV><!-- end nav_org_wrap -->					 
+<DIV id="nav_main_wrap"><!-- begin nav_main_wrap -->		 
+<DIV id="nav_main"><!-- begin nav_main -->			 
+<UL id="menubar_main">
+  <LI><A class="triggeron" href="http://ncl.ucar.edu/">NCL</A>
+  <UL>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/overview.shtml">Overview</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/get_started.shtml">Getting 
+    Started</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/gallery.shtml">Gallery</A></LI>
+    <LI><A class="subitem" 
+href="http://ncl.ucar.edu/Download/">Download</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/current_release.shtml">What's New</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Document/">Documentation</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/citation.shtml">Citing 
+    NCL</A></LI></UL></LI>
+  <LI><A class="trigger" href="http://ncl.ucar.edu/Applications/">Examples</A>
+  <UL>
+    <LI><A title="Examples" class="subitem" href="http://ncl.ucar.edu/Applications/">All 
+    Examples</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Applications/Templates/">Templates</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Applications/list_io.shtml">File I/O</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Applications/list_data.shtml">Datasets</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Applications/list_maps.shtml">Maps</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Applications/list_models.shtml">Models</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Applications/list_dataP.shtml">Data 
+    Analysis</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Applications/list_ptypes.shtml">Plot 
+    Types</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Applications/list_tech.shtml">Plot 
+    Techniques</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Applications/list_special.shtml">Special 
+    Plots</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Applications/list_grids.shtml">Non-uniform 
+    Grids</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Applications/list_misc.shtml">Miscellaneous</A></LI></UL></LI>
+  <LI><A class="trigger" href="http://ncl.ucar.edu/Document/Functions/list_alpha.shtml">Functions</A>
+  <UL>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Functions/list_alpha.shtml">Alphabetical 
+    Listing</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Document/Functions/">Category Listing</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Functions/list_type.shtml">Function-Type 
+    Listing</A></LI></UL></LI>
+  <LI><A class="trigger" 
+  href="http://ncl.ucar.edu/Document/Graphics/Resources/">Resources</A>
+  <UL>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/list_alpha_res.shtml">Complete 
+    Listing</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/am.shtml">am 
+    (annotation manager)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/app.shtml">app 
+    (app)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/ca.shtml">ca 
+    (coordinate array)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/cn.shtml">cn 
+    (contour)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/ct.shtml">ct 
+    (coordinate array table)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/dc.shtml">dc 
+    (data comm)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/err.shtml">err 
+    (error)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/gs.shtml">gs 
+    (graphics styles)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/gsn.shtml">gsn 
+    (gsn high-level interfaces)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/lb.shtml">lb 
+    (label bar)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/lg.shtml">lg 
+    (legends)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/mp.shtml">mp 
+    (maps)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/pm.shtml">pm 
+    (plot manager)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/pr.shtml">pr 
+    (primitives)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/sf.shtml">sf 
+    (scalar field)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/st.shtml">st 
+    (streamline)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/tf.shtml">tf 
+    (transform)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/ti.shtml">ti 
+    (title)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/tm.shtml">tm 
+    (tickmark)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/tr.shtml">tr 
+    (transformation)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/tx.shtml">tx 
+    (text)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/vc.shtml">vc 
+    (vectors)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/vf.shtml">vf 
+    (vector field)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/vp.shtml">vp 
+    (view port)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/wk.shtml">wk 
+    (workstation)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/ws.shtml">ws 
+    (workspace)</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Resources/xy.shtml">xy 
+    (xy plots)</A></LI></UL></LI>
+  <LI><A class="trigger" href="http://ncl.ucar.edu/links.shtml">Popular 
+Links</A>
+  <UL>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/hlures.shtml">.hluresfile</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/color_table_gallery.shtml">Color 
+    Tables</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/font_tables.shtml">Font 
+    Tables</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Language/error_messages.shtml">Error 
+    Messages</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Images/dashpatterns.png">Dash 
+    Pattern Table</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Images/fillpatterns.png">Fill 
+    Pattern Table</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/Images/markers.png">Marker 
+    Table</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/map_projections.shtml">Map 
+    Projections</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Graphics/rangs.shtml">High 
+    Resolution Map Database</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Applications/editor.shtml">Editor 
+    Enhancements</A></LI>
+    <LI><A 
+    href="http://ncl.ucar.edu/Document/Tools/ncl_convert2nc.shtml">ncl_convert2nc</A></LI>
+    <LI><A 
+    href="http://ncl.ucar.edu/Document/Tools/ncl_filedump.shtml">ncl_filedump</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Document/Tools/">Tools</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Tools/WRAPIT.shtml">WRAPIT</A></LI></UL></LI>
+  <LI><A class="trigger" href="http://ncl.ucar.edu/announcements.shtml">What's 
+  New</A>
+  <UL>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/announcements.shtml">Announcements</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/current_release.shtml">In 
+    Latest Release</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/new_applications.shtml">In 
+    Application Examples</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/future_release.shtml">In 
+    Next Release</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/prev_releases.shtml">In 
+    Previous Releases</A></LI></UL></LI>
+  <LI><A class="trigger" href="http://ncl.ucar.edu/Support/">Support</A>
+  <UL>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Support/email_lists.shtml">Email Lists</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Applications/editor.shtml">Editor 
+    enhancements</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/Document/Language/error_messages.shtml">Error 
+    messages</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Document/Manuals/">Manuals</A></LI>
+    <LI><A href="https://www2.cisl.ucar.edu/resources/geyser_caldera/visualization/ncl">NCL 
+    on yellowstone</A>
+    <LI><A class="subitem" 
+href="http://ncl.ucar.edu/Training/">Training</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Training/Webinars/">Webinars</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Training/Workshops/">Workshops</A></LI>
+    <LI><A class="subitem" 
+    href="http://ncl.ucar.edu/Document/">Documentation</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/FAQ/">FAQ</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/known_bugs.shtml">Known 
+    Bugs</A></LI>
+    <LI><A class="subitem" href="http://ncl.ucar.edu/report_bug.shtml">Report 
+    Bugs</A></LI></UL></LI>
+  <LI><A class="trigger" href="http://ncl.ucar.edu/External/">External</A>
+  <UL>
+    <LI><A class="subitem" href="https://www2.cisl.ucar.edu/resources/geyser_caldera/visualization/ncl">Using 
+    NCL on Yellowstone</A></LI>
+    <LI><A class="subitem" href="http://climatedataguide.ucar.edu/">Climate Data 
+    Guide</A></LI>
+    <LI><A class="subitem" href="https://code.zmaw.de/projects/cdo/">Climate 
+    Data Operators</A></LI>
+    <LI><A class="subitem" href="http://www.earthsystemmodeling.org/">Earth 
+    System Modeling Framework</A></LI>
+    <LI><A class="subitem" href="http://nco.sourceforge.net/">NetCDF 
+    Operators</A></LI>
+    <LI><A class="subitem" 
+    href="http://trac.mcs.anl.gov/projects/parvis/wiki">ParVis</A></LI>
+    <LI><A class="subitem" href="http://www.pyngl.ucar.edu/">PyNGL</A></LI>
+    <LI><A class="subitem" 
+    href="http://www.pyngl.ucar.edu/Nio.shtml">PyNIO</A></LI></UL></LI><!-- end menubar_main -->		
+  			</UL><!-- end nav_main -->			</DIV><!-- end nav_main_wrap -->	  	</DIV>
+<DIV id="wrap"><!-- begin wrap -->	 
+<DIV id="content"><!-- begin content -->		 <!-- ######### BEGIN EDITABLE PAGE CONTENT ######### -->
+			 
+<DIV id="subheader"><!-- begin subheader -->			 <MAP name="ncl-home"><AREA 
+  href="http://ncl.ucar.edu/index.shtml" shape="rect" coords="0,0,65,40"> <AREA 
+  href="http://www.ncar.ucar.edu/" shape="rect" coords="580,0,640,40"> </MAP>	 
+<DIV id="nclheader"><IMG alt="NCL Website header" src="CISL's%20NCAR%20Command%20Language%20(NCL)_files/ncl-b4.jpg" 
+usemap="#ncl-home">	 </DIV>
+<DIV id="googlesearch">
+<FORM name="google" id="cse-search-box" action="http://www.ucar.edu/search/googleresults.jsp">
+<DIV id="googlesearch"><INPUT name="cx" type="hidden" value="008424664622949020059:afj38jxaljc"> 
+   <INPUT name="cof" type="hidden" value="FORID:9">    <INPUT name="ie" type="hidden" value="UTF-8"> 
+   <INPUT name="q" type="text" size="12">    
+<INPUT name="hq" type="hidden" value="site:www.ncl.ucar.edu">    <A href="http://www2.ucar.edu/advanced-search">advanced</A> 
+ </DIV></FORM>
+<SCRIPT src="CISL's%20NCAR%20Command%20Language%20(NCL)_files/f.txt" type="text/javascript"></SCRIPT>
+				 
+<P class="datetime"></P></DIV><!-- end googlesearch -->			 </DIV><!-- end subheader -->
+								 
+<DIV id="frontpage_main"><!-- begin research_subcolumn -->						 <!-- <div id="frontpage_subcolumn"> -->
+								 
+<P><IMG src="CISL's%20NCAR%20Command%20Language%20(NCL)_files/NCLMainImage.png" 
+border="0" usemap="#center">					   <!-- </div> -->					 </P></DIV>
+<DIV id="sidebar_setup">
+<DIV id="frontpage_sidebar">
+<H1 class="newfill"><A href="http://ncl.ucar.edu/current_release.shtml">Release 
+Information</A></H1><STRONG>Current Version:</STRONG> <A href="http://ncl.ucar.edu/current_release.shtml">6.3.0</A><BR><STRONG>Release 
+Date:</STRONG> March 18, 2015
+<P><STRONG>Next Version:</STRONG> <A href="http://ncl.ucar.edu/future_release.shtml">6.4.0</A><BR><STRONG>Release 
+Date:</STRONG> Spring 2016
+<P></P></DIV>
+<DIV id="frontpage_sidebar">
+<H1 class="newfill"><A 
+href="http://ncl.ucar.edu/announcements.shtml">Announcements</A></H1>
+<P><B><A href="http://ncl.ucar.edu/Download/conda.shtml">Install NCL using 
+"conda"</A></B> <IMG src="CISL's%20NCAR%20Command%20Language%20(NCL)_files/new.gif"><BR><BR><B><A 
+href="http://ncl.ucar.edu/Training/Workshops/">NCL Workshop in Boulder, June 
+2016</A></B><BR><BR><B><A href="http://ncl.ucar.edu/current_release.shtml">NCL 
+Version 6.3.0 released</A></B><BR><BR><B><A href="http://ncl.ucar.edu/Document/Reference_Cards/">NCL 
+Quick Reference Card</A></B><BR>
+<H1 class="newfill">NCL on Yellowstone</H1><A href="https://www2.cisl.ucar.edu/resources/geyser_caldera/visualization/ncl">Using
+ NCL in the Yellowstone environment</A>
+<P> 
+<H1 class="newfill">Citing NCL</H1>NCL has a DOI. Look <A href="http://ncl.ucar.edu/citation.shtml">here</A> 
+for more details.					    </DIV></DIV><!-- begin footer -->		 
+<DIV id="footer">
+<P>©2016 <A href="http://www.ucar.edu/">UCAR</A> | <A href="http://www2.ucar.edu/privacy-policy">Privacy 
+Policy</A> | <A href="http://www2.ucar.edu/terms-of-use">Terms of Use</A>        
+            | <A href="mailto:ncladmin@ucar.edu">Contact the Webmaster</A> | <A 
+href="http://www.nsf.gov/">Sponsored by NSF</A></P><!-- end footer -->
+		 </DIV><BR class="clearboth"><!-- end content -->	 </DIV><!-- end wrap --> 
+</DIV></BODY></HTML>
