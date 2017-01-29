@@ -71,6 +71,7 @@
         data.addRows([
           ['Benchmark','<a href="Fluxnet-MTE_Benchmark.nc" download>[-]</a>',1.694, null, null, null, null, null, null, null, null, null,0.980, null, null, null, null, null, null, null, null, null,1.062, null, null, null, null, null, null, null, null, null,2.586, null, null, null, null, null, null, null, null, null,2.156, null, null, null, null, null, null, null, null, null],
           ['CLM40cn','<a href="Fluxnet-MTE_CLM40cn.nc" download>[-]</a>',1.284,-0.402,1.492,-19.543,0.601,0.558,0.918,0.681,0.616,0.655,1.057,0.073,1.040,-16.608,0.540,0.507,0.861,0.671,0.564,0.608,1.217,0.131,0.980,2.727,0.562,0.468,0.884,0.720,0.589,0.615,2.959,0.360,1.748,-1.661,0.606,0.531,0.829,0.770,0.576,0.640,2.515,0.370,1.541,-11.560,0.672,0.560,0.927,0.721,0.700,0.690],
+          ['CLM45bgc_CRUNCEP','<a href="Fluxnet-MTE_CLM45bgc_CRUNCEP.nc" download>[-]</a>',1.945,0.275,1.488,-16.035,0.649,0.570,0.944,0.691,0.613,0.673,1.703,0.768,1.676,-15.108,0.433,0.362,0.900,0.558,0.386,0.500,1.190,0.087,1.061,-4.222,0.549,0.443,0.869,0.764,0.567,0.606,2.811,0.126,1.623,-2.585,0.612,0.522,0.832,0.899,0.559,0.658,2.506,0.337,1.608,-21.900,0.665,0.541,0.899,0.777,0.682,0.684],
         ]);
         var view  = new google.visualization.DataView(data);
         var rid = document.getElementById("region").selectedIndex
@@ -103,6 +104,7 @@
           document.getElementById('spatial_variance').src =  RNAME + '_spatial_variance.png'
           document.getElementById('spaceint').src =  MNAME + '_' + RNAME + '_spaceint.png'
           document.getElementById('cycle').src =  MNAME + '_' + RNAME + '_cycle.png'
+          document.getElementById('compcycle').src =  RNAME + '_compcycle.png'
           document.getElementById('rel_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_SurfaceAirTemperature.png'
           document.getElementById('benchmark_rel_SurfaceAirTemperature').src =  'Benchmark_' + RNAME + '_rel_SurfaceAirTemperature.png'
         }
@@ -133,6 +135,7 @@
         document.getElementById('legend').src = 'legend_' + PNAME + '.png'
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png'
         document.getElementById('CLM40cn').src = 'CLM40cn_' + RNAME + '_' + PNAME + '.png'
+        document.getElementById('CLM45bgc_CRUNCEP').src = 'CLM45bgc_CRUNCEP_' + RNAME + '_' + PNAME + '.png'
       }
     </script>
     <script>
@@ -240,6 +243,12 @@
               <div class="inner rotate">CYCLE</div>
               <div class="second"><img src="" id="cycle" alt="Data not available"></img></div>
         </div><br>
+        <div class="outer" id="compcycle_div">
+              <div class="inner rotate">CYCLES</div>
+              <div class="second"><img src="" id="compcycle" alt="Data not available"></img></div>
+              <div class="inner rotate"> </div>
+              <div class="second"><img src="legend_compcycle.png" id="leg"  alt="Data not available"></img></div>
+        </div><br>
       </div>
       <div data-role="collapsible" data-collapsed="false"><h1>Period Mean Relationships</h1>
         <div class="benchmark" id="rel_SurfaceAirTemperature_div">
@@ -281,6 +290,10 @@
         <div class="outer" id="CLM40cn_div">
               <div class="inner rotate">CLM40cn</div>
               <div class="second"><img src="" id="CLM40cn" alt="Data not available"></img></div>
+        </div><br>
+        <div class="outer" id="CLM45bgc_CRUNCEP_div">
+              <div class="inner rotate">CLM45bgc_CRUNCEP</div>
+              <div class="second"><img src="" id="CLM45bgc_CRUNCEP" alt="Data not available"></img></div>
         </div><br>
         <div class="outer" id="legend_div">
               <div class="inner rotate"> </div>
