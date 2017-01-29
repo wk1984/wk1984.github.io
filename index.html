@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Untitled</title>
+<title>Model_Test</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11753,17 +11753,20 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The original model was developed by Ling Feng and Zhang Tingjun in 2004.</p>
 <p>The model is simplied to 1D heat tranfer model, excluding the surface balance process.</p>
-<p>Reference:</p>
+<p>It has been compiled with a python interface.</p>
+<p>This version passed the test in Mac OS with python 2.7 and gfotran 6.1.</p>
+<hr>
+<p>| Current version: V0.1           |
+| Create date    : Jan 29, 2017   |</p>
+<h2 id="|-by-Kang-Wang--------------------|">| by Kang Wang                    |<a class="anchor-link" href="#|-by-Kang-Wang--------------------|">&#182;</a></h2><p>Reference:</p>
 <p>Ling F, Zhang T. 2004. A numerical model for surface energy balance and thermal regime of the active layer and permafrost containing unfrozen water. Cold Regions Science and Technology 38(1): 1–15.</p>
-<p>Kang Wang</p>
-<p>Jan 29, 2017</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">lf_model</span>
@@ -11793,7 +11796,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Set up some basic information:</span>
@@ -11838,7 +11841,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Initial temperature profile:</span>
@@ -11890,7 +11893,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">final</span> <span class="o">=</span> <span class="n">lf_model</span><span class="o">.</span><span class="n">mainmodel</span><span class="p">(</span><span class="n">ntb</span><span class="p">,</span><span class="n">nday</span><span class="p">,</span><span class="n">nyear</span><span class="p">,</span><span class="n">nstep</span><span class="p">,</span><span class="n">i_calib_period</span>
@@ -11917,7 +11920,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">cal_ALT</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
