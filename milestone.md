@@ -7,7 +7,7 @@ header-img: "img/top.png"
 
 
 <center>
-    <p><img src="img/maxresdefault.jpg" align="center"></p>
+    <p><img src="/img/maxresdefault.jpg" align="center"></p>
 </center>
 
 
