@@ -10,7 +10,7 @@ header-img: "img/top.png"
     <p><img src="https://avatars0.githubusercontent.com/u/7428153?v=4&s=460" align="center"></p>
 </center>
 
-Github: https://github.com/wk1984
+[Github: https://github.com/wk1984](http://www.baibanbao.net/2014/is-it-possible-to-write-1000-words-per-day.html)
 
 
 
