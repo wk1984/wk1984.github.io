@@ -1,11 +1,10 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Hello, Permafrost               # 标题 
-subtitle:   Global Temperature  #副标题
+title:      Global Temperature               # 标题 
 date:       2017-09-20              # 时间
 author:     K.W.                      # 作者
 header-img: img/top.png    #这篇文章标题背景图片
-catalog: true                       # 是否归档
+categories: blog                       # 是否归档
 tags:                               #标签
     - Climate
 	- Climate Change
