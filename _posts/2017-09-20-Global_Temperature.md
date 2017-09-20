@@ -1,14 +1,11 @@
 ---
-layout:     post                    # 使用的布局（不需要改）
-title:      Global Temperature               # 标题 
-date:       2017-09-20              # 时间
-author:     K.W.                      # 作者
+layout: post
+title: Global Temperature
+date: 2017-09-20
+categories: blog
+tags: [Climate,Climate Change, Global Warming]
+description: Popular Global Temperature
 header-img: img/top.png    #这篇文章标题背景图片
-categories: blog                       # 是否归档
-tags:                               #标签
-    - Climate
-	- Climate Change
-	- Global Warming
 ---
 
 ## Popular Global Temperature Figures:
