@@ -61,3 +61,14 @@ google_verify:
 bing_verify:
 
 # Links to include in footer navigation
+# Friends
+friends: [
+{
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
+    }
+]
+theme: jekyll-theme-slate
