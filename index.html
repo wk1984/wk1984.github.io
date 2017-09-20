@@ -1,12 +1,12 @@
 ---
 layout: page
-description: "思想有多远，我们就可以走多远. (We can go as far as we thought)"
+description: "K. W."
 ---
 
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
+        <h2 class="post-title">            
             {{ post.title }}
         </h2>
         {% if post.subtitle %}
@@ -15,13 +15,12 @@ description: "思想有多远，我们就可以走多远. (We can go as far as w
         </h3>
         {% endif %}
         <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
+            {{ post.content | strip_html | truncate:150 }}
         </div>
     </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
+
 <hr>
 {% endfor %}
 
