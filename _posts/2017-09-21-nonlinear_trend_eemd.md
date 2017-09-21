@@ -84,11 +84,7 @@ plt.savefig('test.png',dpi=326)
 plt.close()
 
 ```
+![Example Figure:](img/eemd_test.png)
 
-Example Figure:
-
-<center>
-    <p><img src="img/eemd_test.png" align="center"></p>
-</center>
 
 **Part III: Q&A**
