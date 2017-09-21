@@ -16,4 +16,4 @@ Popular Global Temperature Figures:
 
 ![Multiple proxy data](http://www2.sunysuffolk.edu/mandias/global_warming/images/mann_temperature_reconstruction.jpg)
 
-[![Global Warming](https://www.youtube.com/watch?v=oJAbATJCugs)
+[![Global Warming](http://img.youtube.com/vi/oJAbATJCugs/0.jpg)](https://www.youtube.com/watch?v=oJAbATJCugs)
