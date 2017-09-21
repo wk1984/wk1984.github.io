@@ -6,14 +6,18 @@ header-img: "img/top.png"
 ---
 **Peer-Reviewed publications**
 
-1. **Kang Wang**, Tingjun Zhang, Xiangdong Zhang, Gary D. Clow, Elchin E. Jafarov, Irina Overeem, Vladimir Romanovsky, Xiaoqing Peng, Bin Cao: Continuously Amplified Warming in the Alaskan Arctic: Implications for Estimating Global Warming Hiatus. 08/2017;, [DOI:10.1002/2017gl074232](https://doi.org/10.1002/2017gl074232)
+1. **Kang Wang**, Tingjun Zhang, Xiangdong Zhang, Gary D. Clow, Elchin E. Jafarov, Irina Overeem, Vladimir Romanovsky, Xiaoqing Peng, Bin Cao: Continuously Amplified Warming in the Alaskan Arctic: Implications for Estimating Global Warming Hiatus. *Geophysical Research Letters* 08/**2017**;, [DOI:10.1002/2017gl074232](https://doi.org/10.1002/2017gl074232)
 [PDF](pdfs/Wang_et_al-2017-Geophysical_Research_Letters.pdf)
 
-1. **Kang Wang**, Tingjun Zhang, Hong Guo, Huijuan Wang: Climatology of the Timing and Duration of the Near-Surface Soil Freeze-Thaw Status Across China. Arctic Antarctic and Alpine Research 11/2016; 48(4):723-738., [DOI:10.1657/AAAR0016-009](https://doi.org/10.1657/AAAR0016-009)
+1. **Kang Wang**, Tingjun Zhang, Hong Guo, Huijuan Wang: Climatology of the Timing and Duration of the Near-Surface Soil Freeze-Thaw Status Across China. *Arctic Antarctic and Alpine Research* 11/**2016**; 48(4):723-738., [DOI:10.1657/AAAR0016-009](https://doi.org/10.1657/AAAR0016-009)
 [PDF](pdfs/aaar0016-009.pdf)
 
-1. **K. Wang**, T. Zhang, X. Zhong: Changes in the timing and duration of the near-surface soil freeze/thaw status from 1956 to 2006 across China. The Cryosphere 06/2015; 9(3)., [DOI:10.5194/tc-9-1321-2015](https://doi.org/10.5194/tc-9-1321-2015)
+1. **K. Wang**, T. Zhang, X. Zhong: Changes in the timing and duration of the near-surface soil freeze/thaw status from 1956 to 2006 across China. *The Cryosphere* 06/**2015**; 9(3)., [DOI:10.5194/tc-9-1321-2015](https://doi.org/10.5194/tc-9-1321-2015)
 [PDF](pdfs/tc-9-1321-2015.pdf)
 
+1. Qingfeng Wang, Huijun Jin, Tingjun Zhang, Bin Cao, Xiaoqing Peng, **Kang Wang**, Xiongxin Xiao, Hong Guo, Cuicui Mu, Lili Li: Hydro-thermal processes and thermal offsets of peat soils in the active layer in an alpine permafrost region, NE Qinghai-Tibet plateau. *Global and Planetary Change* 07/**2017**; 156., [DOI:10.1016/j.gloplacha.2017.07.011](https://doi.org/10.1016/j.gloplacha.2017.07.011)
 
+1. Xiaoqing Peng, Tingjun Zhang, Oliver W. Frauenfeld, **Kang Wang**, Bin Cao, Xinyue Zhong, Hang Su, Cuicui Mu: Response of seasonal soil freeze depth to climate change across China. *The Cryosphere* 05/**2017**; 11(3):1059-1073., [DOI:10.5194/tc-11-1059-2017](https://doi.org/10.5194/tc-11-1059-2017)
+
+1. Bin Cao, Stephan Gruber, Tingjun Zhang, Lili Li, Xiaoqing Peng, **Kang Wang**, Lei Zheng, Wanwan Shao, Hong Guo: Spatial Variability of Active Layer Thickness Detected by Ground-Penetrating Radar in the Qilian Mountains, Western China. *Journal of Geophysical Research: Earth Surface* 02/**2017**;, [DOI:10.1002/2016JF004018](https://doi.org/10.1002/2016JF004018)
 
