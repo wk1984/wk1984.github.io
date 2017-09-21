@@ -14,4 +14,4 @@ header-img: img/top.png    #这篇文章标题背景图片
 
 ![NASA/GISS](https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.png)
 
-![multiple proxy data] (http://www2.sunysuffolk.edu/mandias/global_warming/images/mann_temperature_reconstruction.jpg)
+![Multiple proxy data](http://www2.sunysuffolk.edu/mandias/global_warming/images/mann_temperature_reconstruction.jpg)
