@@ -13,3 +13,6 @@ header-img: "img/top.png"
 Github: 
 [https://github.com/wk1984](https://github.com/wk1984)
 
+ResearchGate:
+[https://www.researchgate.net/profile/Kang_Wang23](https://www.researchgate.net/profile/Kang_Wang23)
+
