@@ -14,7 +14,4 @@ header-img: img/top.png    #这篇文章标题背景图片
 
 ![NASA/GISS](https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.png)
 
-![Borehole Inversion] (http://www2.sunysuffolk.edu/mandias/global_warming/images/borehole_2.gif)
-
-![multiple proxy data] (http://www2.sunysuffolk.edu/mandias/global_warming/images/mann_proxy_data.gif)
-![](http://www2.sunysuffolk.edu/mandias/global_warming/images/mann_temperature_reconstruction.jpg)
+![multiple proxy data] (http://www2.sunysuffolk.edu/mandias/global_warming/images/mann_temperature_reconstruction.jpg)
