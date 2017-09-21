@@ -29,7 +29,7 @@ header-img: img/top.png    #这篇文章标题背景图片
 * Install **pyeemd**:
  *    > cd pyeemd
  *    > python setup.py install
-* Copy *libeemd** files 
+* Copy **libeemd** files 
 
   * Find out which the pyeemd install folder is, e.g., "~/anaconda/envs/EEMD_ENV/lib/python2.7/site-packages/pyeemd-1.4-py2.7.egg/pyeemd"
   * Copy "eemd.h", "libeemd.a", "libeemd.so", and "libeemd.so.1.4.1" to pyeemd install folder.
