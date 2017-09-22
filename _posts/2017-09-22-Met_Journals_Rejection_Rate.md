@@ -14,7 +14,7 @@ Schultz, D.M., **2010**: Rejection Rates for Journals Publishing in the Atmosphe
     <p><img src="/img/2009bams2908.bmp" align="center"></p>
 </center>
 
-| Journal name                                               | Acronym | number of submissions | rejection rate (%) |
+| Journal name                                               | Acronym | Number of submissions | Rejection rate (%) |
 |------------------------------------------------------------|---------|-----------------------|--------------------|
 | Advances in Atmospheric Science                            | AAS     | 198                   | 50.5               |
 | Atmospheric Chemistry and Physics                          | ACP     | 593                   | 12.3               |
