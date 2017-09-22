@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Snow Cover
+title: Gallery - Snow Cover
 date: 2017-09-21
 categories: blog
 tags: [Climate,Climate Change, Snow, Cryosphere]

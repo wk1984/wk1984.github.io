@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Global Temperature
+title: Gallery - Global Temperature
 date: 2017-09-20
 categories: blog
 tags: [Climate,Climate Change, Global Warming]

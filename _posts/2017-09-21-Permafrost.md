@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Permafrost and Frozen Ground
+title: Gallery - Permafrost and Frozen Ground
 date: 2017-09-21
 categories: blog
 tags: [Climate,Climate Change, Permafrost, Cryosphere]
