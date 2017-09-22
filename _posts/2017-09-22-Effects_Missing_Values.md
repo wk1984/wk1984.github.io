@@ -3,7 +3,7 @@ layout: post
 title: Analysis and estimation of the effects of missing values on the calculation of monthly temperature indices
 date: 2017-09-22
 categories: blog
-tags: [Missing value, Meterology, Atmosphere, Climatology, Climate, monthly, temperature]
+tags: [Missing value, Meterology, Atmosphere, Climatology, Climate, monthly, temperature, Reference]
 description: Analysis and estimation of the effects of missing values on the calculation of monthly temperature indices
 header-img: img/top.png    #这篇文章标题背景图片
 ---

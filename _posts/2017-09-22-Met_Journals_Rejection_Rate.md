@@ -3,7 +3,7 @@ layout: post
 title: Rejection Rates for Journals Publishing in the Atmospheric Sciences
 date: 2017-09-22
 categories: blog
-tags: [Rejection, Meterology, Atmosphere, Climatology, Climate, Journal]
+tags: [Rejection, Meterology, Atmosphere, Climatology, Climate, Journal, Reference]
 description: Rejection Rates for Journals Publishing in the Atmospheric Sciences
 header-img: img/top.png    #这篇文章标题背景图片
 ---
