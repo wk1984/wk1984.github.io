@@ -14,8 +14,10 @@ header-img: img/top.png    #这篇文章标题背景图片
 
 It has **five** key assumptions:
 
- 1. *Linear relationship*
- 1. *Multivariate normality*
- 1. *No or little multicollinearity*
- 1. *No auto-correlation*
- 1. *Homoscedasticity*
+  1. *Linear relationship*
+  1. *Multivariate normality*
+  1. *No or little multicollinearity*
+  1. *No auto-correlation*
+  1. *Homoscedasticity*
+  
+*See*: [http://www.statisticssolutions.com/assumptions-of-linear-regression/](http://www.statisticssolutions.com/assumptions-of-linear-regression/)
