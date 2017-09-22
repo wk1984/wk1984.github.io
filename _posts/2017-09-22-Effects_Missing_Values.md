@@ -30,7 +30,7 @@ A theoretical, a linear and a nonlinear model to estimate the maximum error at t
 
 **Consecutive missing values have an important effect on error estimation due to autocorrelation of temperature data series.** <br>
 
-On our dataset, the mean and standard deviation of the error for five consecutive missing values ($0.27 \pm 0.05 ^o C$) on a normalized daily series ($\sigma =1 $) was higher than for five random missing values ($0.14 \pm 0.006 ^o C$). <br>
+On our dataset, the mean and standard deviation of the error for five consecutive missing values (0.27 ± 0.05 °C) on a normalized daily series (σ=1) was higher than for five random missing values (0.14 ± 0.006 °C). <br>
 
 A nonlinear model taking into account the number of consecutive missing values is able to estimate the error and its performance is less affected by the presence of consecutive missing values than the other proposed models. <br>
 
