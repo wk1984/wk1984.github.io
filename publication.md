@@ -1,7 +1,7 @@
 ---
 layout: page 
 title: "Publications" 
-description: "思想有多远，我们就可以走多远. (We can go as far as we thought)" 
+description: "思想有多远，我们就可以走多远. <br>(We can go as far as we thought)" 
 header-img: "img/top.png" 
 ---
 
