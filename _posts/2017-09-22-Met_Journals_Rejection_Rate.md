@@ -8,7 +8,7 @@ description: Snow Cover
 header-img: img/top.png    #这篇文章标题背景图片
 ---
 
-Schultz, D.M., 2010: Rejection Rates for Journals Publishing in the Atmospheric Sciences. Bull. Amer. Meteor. Soc., 91, 231–243, [https://doi.org/10.1175/2009BAMS2908.1](https://doi.org/10.1175/2009BAMS2908.1) 
+Schultz, D.M., **2010**: Rejection Rates for Journals Publishing in the Atmospheric Sciences. *Bull. Amer. Meteor. Soc.*, 91, 231–243, [https://doi.org/10.1175/2009BAMS2908.1](https://doi.org/10.1175/2009BAMS2908.1) 
 
 <center>
     <p><img src="/img/2009bams2908.bmp" align="center"></p>
@@ -19,9 +19,9 @@ Schultz, D.M., 2010: Rejection Rates for Journals Publishing in the Atmospheric 
 | Advances in Atmospheric Science                            | AAS     | 198                   | 50.5               |
 | Atmospheric Chemistry and Physics                          | ACP     | 593                   | 12.3               |
 | Atmospheric Environment                                    | AE      | 1514                  | 46.0               |
-| Atmosphere每Ocean (combined)                               | AO      | 64                    | 30.9               |
-| Atmosphere每Ocean   (Atmosphere)                           | AO-A    | 42                    | 22.2               |
-| Atmosphere每Ocean  (Ocean)                                 | AO-O    | 22                    | 47.4               |
+| Atmosphere-Ocean (Combined)                                | AO      | 64                    | 30.9               |
+| Atmosphere-Ocean (Atmosphere)                              | AO-A    | 42                    | 22.2               |
+| Atmosphere-Ocean (Ocean)                                   | AO-O    | 22                    | 47.4               |
 | Atmospheric  Research                                      | AR      | 441                   | 62.5               |
 | Atmospheric Science Letters                                | ASL     | 77                    | 40.3               |
 | Australian Meteorological Magazine                         | AMM     | 28                    | 44.0               |
@@ -47,7 +47,7 @@ Schultz, D.M., 2010: Rejection Rates for Journals Publishing in the Atmospheric 
 | Journal of Atmospheric Science                             | JAtmS   | 399                   | 26.8               |
 | Journal of Climate                                         | JC      | 534                   | 31.3               |
 | Journal of Fluid Mechanics                                 | JFM     | 877                   | 52.0               |
-| Journal of Geophysical Research每Atmospheres               | JGR-Atm | ~1380                 | 29.7               |
+| Journal of Geophysical Research-Atmospheres                | JGR-Atm | ~1380                 | 29.7               |
 | Journal of Hydrometeorology                                | JH      | 145                   | 38.6               |
 | Journal of Physical Oceanography                           | JPO     | 255                   | 18.8               |
 | Meteorological Applications                                | MA      | 65                    | 47.4               |
