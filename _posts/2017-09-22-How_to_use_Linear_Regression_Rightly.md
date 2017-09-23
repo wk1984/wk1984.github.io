@@ -15,9 +15,19 @@ header-img: img/top.png    #这篇文章标题背景图片
 It has **five** key assumptions:
 
   1. *Linear relationship*
+<center>
+    <p><img src="/img/linear-nonlinear-relationships.png" align="center"></p>
+</center>
   1. *Multivariate normality*
   1. *No or little multicollinearity*
   1. *No auto-correlation*
   1. *Homoscedasticity*
-  
-*See*: [http://www.statisticssolutions.com/assumptions-of-linear-regression/](http://www.statisticssolutions.com/assumptions-of-linear-regression/)
+<center>
+    <p><img src="/img/heteroscedastic-relationships.png" align="center"></p>
+</center>  
+
+*See also*: <br>
+
+[http://www.statisticssolutions.com/assumptions-of-linear-regression/](http://www.statisticssolutions.com/assumptions-of-linear-regression/)
+
+[https://statistics.laerd.com/spss-tutorials/linear-regression-using-spss-statistics.php](https://statistics.laerd.com/spss-tutorials/linear-regression-using-spss-statistics.php)
