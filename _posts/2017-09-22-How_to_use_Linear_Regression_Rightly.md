@@ -14,14 +14,14 @@ header-img: img/top.png    #这篇文章标题背景图片
 
 It has **five** key assumptions:
 
-  1. *Linear relationship*
+  * *Linear relationship*
 <center>
     <p><img src="/img/linear-nonlinear-relationships.png" align="center"></p>
 </center>
-  1. *Multivariate normality*
-  1. *No or little multicollinearity*
-  1. *No auto-correlation*
-  1. *Homoscedasticity*
+  * *Multivariate normality*
+  * *No or little multicollinearity*
+  * *No auto-correlation*
+  * *Homoscedasticity*
 <center>
     <p><img src="/img/heteroscedastic-relationships.png" align="center"></p>
 </center>  
