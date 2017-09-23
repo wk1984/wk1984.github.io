@@ -22,6 +22,15 @@ This book presents an introduction to the methodology of structural equation mod
 <center>
     <p><img src="https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/content_grid/public/thumbnails/image/gen39968jim_portrait_033_cropped_small.jpg" align="center"></p>
 </center>
+
 He obtained his Bachelor of Science from Presbyterian College his Master of Science from Clemson University and his Ph.D. from Michigan State University. He served on the faculty at the University of Arkansas and later at Louisiana State University, where he reached the rank of Professor. He has, for the past several years, worked at the US Geological Survey’s National Wetlands Research Center in Lafayette, Louisiana where he is a Senior Research Ecologist. He holds an Adjunct Professorship at the University of Louisiana.
 
-See also: [https://www.usgs.gov/staff-profiles/james-grace?qt-staff_profile_science_products=0#qt-staff_profile_science_products](https://www.usgs.gov/staff-profiles/james-grace?qt-staff_profile_science_products=0#qt-staff_profile_science_products)
+*See also:* [https://www.usgs.gov/staff-profiles/james-grace?qt-staff_profile_science_products=0#qt-staff_profile_science_products](https://www.usgs.gov/staff-profiles/james-grace?qt-staff_profile_science_products=0#qt-staff_profile_science_products)
+
+USGS scientists have been involved for a number of years in the development and use of *Structural Equation Modeling* (SEM). 
+This methodology represents an approach to statistical modeling that focuses on the study of complex cause-effect hypotheses about the mechanisms operating in systems. 
+SEM is increasingly used in ecological and environmental studies and this site seeks to provide educational materials related to that enterprise. 
+This site serves up tutorials, exercises, and examples designed to help researchers learn and apply SEM. Please click on the "**Science**" tab to learn more.
+
+**Click following link:**
+[**USGS SEM tutorials**](https://www.usgs.gov/centers/wetland-and-aquatic-research-center/science/quantitative-analysis-using-structural-equation?qt-science_center_objects=1#qt-science_center_objects)
