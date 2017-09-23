@@ -8,7 +8,7 @@ description: The effects observed are causal relationships in the context of the
 header-img: img/top.png    #这篇文章标题背景图片
 ---
 
-Fisher, J. P., Estop-Aragonés, C., Thierry, A., Charman, D. J., Wolfe, S. A., Hartley, I. P., Murton, J. B., Williams, M. and Phoenix, G. K. (**2016**), The influence of vegetation and soil characteristics on active-layer thickness of permafrost soils in boreal forest. *Glob Change Biol*, 22: 3127–3140. [doi:10.1111/gcb.13248](http://dx.doi.org/doi:10.1111/gcb.13248)
+Fisher, J. P., Estop-Aragonés, C., Thierry, A., Charman, D. J., Wolfe, S. A., Hartley, I. P., Murton, J. B., Williams, M. and Phoenix, G. K. (**2016**), The influence of vegetation and soil characteristics on active-layer thickness of permafrost soils in boreal forest. *Glob Change Biol*, 22: 3127–3140. [doi:10.1111/gcb.13248](http://dx.doi.org/10.1111/gcb.13248)
 
 <center>
     <p><img src="/img/gcb13248-fig-0005.png" align="center"></p>
