@@ -13,7 +13,7 @@ header-img: img/top.png    #这篇文章标题背景图片
 </center>
 
 A new study in **Annals of Internal Medicine** (IF > 17) shows that: 
-> "Coffee drinking was correlated to reduced death risk and did **NOT** vary by country". 
+> "Coffee drinking was associated with **reduced riskfor death** from various causes. This relationship did **NOT** vary by country.". 
 
 They surveied 521,330 persons enrolled in EPIC (European Prospective Investigation into Cancer and Nutrition) across 10 European countries.
 
