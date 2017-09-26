@@ -7,7 +7,7 @@ header-img: "img/top.png"
 
 **Peer-Reviewed publications**
 
-1. **Kang Wang**, Tingjun Zhang, Xiangdong Zhang, Gary D. Clow, Elchin E. Jafarov, Irina Overeem, Vladimir Romanovsky, Xiaoqing Peng, Bin Cao: Continuously Amplified Warming in the Alaskan Arctic: Implications for Estimating Global Warming Hiatus. *Geophysical Research Letters* 08/**2017**;, [DOI:10.1002/2017gl074232](https://doi.org/10.1002/2017gl074232) [PDF](pdfs/Wang_et_al-2017-Geophysical_Research_Letters.pdf)
+1. **Kang Wang**, Tingjun Zhang, Xiangdong Zhang, Gary D. Clow, Elchin E. Jafarov, Irina Overeem, Vladimir Romanovsky, Xiaoqing Peng, Bin Cao: Continuously Amplified Warming in the Alaskan Arctic: Implications for Estimating Global Warming Hiatus. *Geophysical Research Letters* 08/**2017**;44:9029-9038., [DOI:10.1002/2017gl074232](https://doi.org/10.1002/2017gl074232) [PDF](pdfs/Wang_et_al-2017-Geophysical_Research_Letters.pdf)
 
 1. Qingfeng Wang, Huijun Jin, Tingjun Zhang, Bin Cao, Xiaoqing Peng, **Kang Wang**, Xiongxin Xiao, Hong Guo, Cuicui Mu, Lili Li: Hydro-thermal processes and thermal offsets of peat soils in the active layer in an alpine permafrost region, NE Qinghai-Tibet plateau. *Global and Planetary Change* 07/**2017**; 156:1-12., [DOI:10.1016/j.gloplacha.2017.07.011](https://doi.org/10.1016/j.gloplacha.2017.07.011)
 
