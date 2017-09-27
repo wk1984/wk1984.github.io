@@ -60,9 +60,9 @@ header-img: "img/top.png"
 
 1. **Koppen Climate Classification**
 	
-	>	* Hanschen: [click here!](http://hanschen.org/koppen/)
-	>	* Kottek: [click here!](http://koeppen-geiger.vu-wien.ac.at/present.htm)
-	>	* Peel: [click here!](https://www.hydrol-earth-syst-sci.net/11/1633/2007/hess-11-1633-2007-supplement.zip)
+	* Hanschen: [click here!](http://hanschen.org/koppen/)
+	* Kottek: [click here!](http://koeppen-geiger.vu-wien.ac.at/present.htm)
+	* Peel: [click here!](https://www.hydrol-earth-syst-sci.net/11/1633/2007/hess-11-1633-2007-supplement.zip)
 	
 1. **Permafrost map**
 
