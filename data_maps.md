@@ -21,6 +21,7 @@ header-img: "img/top.png"
 	* Gridded Products: [click here!](https://crudata.uea.ac.uk/cru/data/hrg/)
 
 1.	**Berkeley Earth (monthly, global, 1x1 deg)**
+
 	* Gridded Products: [click here!](http://berkeleyearth.org/data/)
 	* Source code: [click here!] (http://berkeleyearth.org/analysis-code/)
 
@@ -33,9 +34,11 @@ header-img: "img/top.png"
 	* Source code: [click here!](https://data.giss.nasa.gov/gistemp/sources_v3/)
 
 1. **GHCN Gridded Products (monthly, global, 5x5 deg)**
+
 	* Data: [click here!](https://www.ncdc.noaa.gov/temp-and-precip/ghcn-gridded-products/)
 
 1. **MLOST Product (monthly, global, 5x5 deg)**
+
 	* Data: [click here!]()
 	<center>
     <p><img src="img/global-temperature-anomaly-time-series-and-trends.png" align="center"></p>
@@ -48,12 +51,15 @@ header-img: "img/top.png"
 	* Data access: [click here!](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn)
 
 1.	**U.S. Climate Reference Network (USRCRN, monthly, daily, hourly, sub-hourly, conterminous U.S.)**
+
 	* Data access: [click here!](https://www.ncdc.noaa.gov/crn/qcdatasets.html)
 
 1.	**FLUXNET (register required)**
+
 	* Link: [click here!](http://fluxnet.fluxdata.org/data/)
 
 1.	**Russian & former USSR Station data (daily, Russia)**
+
 	* Russia: [click here!](http://cdiac.ess-dive.lbl.gov/ftp/russia_daily/)
 	* USSR: [click here!](http://cdiac.ess-dive.lbl.gov/ftp/ndp040/)
 	
