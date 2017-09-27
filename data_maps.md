@@ -5,10 +5,6 @@ description: "思想有多远，我们就可以走多远. <br>(We can go as far 
 header-img: "img/top.png"
 ---
 
-<center>**Useful Data List**</center>
-
-**--------------------**
-
 <span style="color:red">**Part I: Gridded Datasets =============**</span>
 
 1. **CRUTEM (monthly, global, 5x5 deg)**
