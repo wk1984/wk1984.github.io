@@ -6,7 +6,7 @@ header-img: "img/top.png"
 ---
 **=============Gridded Datasets=============**
 
-**1. CRUTEM (monthly, global, 5x5 deg)**
+1. **CRUTEM (monthly, global, 5x5 deg)**
 
   1. Gridded Products: [click here!](https://crudata.uea.ac.uk/cru/data/temperature/)
 
@@ -16,17 +16,16 @@ header-img: "img/top.png"
 
   1. Station data: [click here!](https://crudata.uea.ac.uk/cru/data/temperature/crutem4/station-data.htm)
 
-**1. CRU TS (monthly, global, 0.5x0.5 deg)**
+1. **CRU TS (monthly, global, 0.5x0.5 deg)**
 
 Gridded Products: [click here!](https://crudata.uea.ac.uk/cru/data/hrg/)
 
 **1. Berkeley Earth (monthly, global, 1x1 deg)**
 
 
-
 **=============Station Datasets=============**
 
-**1. Global Historical Climatology Network (GHCN, monthly&daily, global)**
+1. **Global Historical Climatology Network (GHCN, monthly&daily, global)**
 
 Data access: [click here!](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn)
 
