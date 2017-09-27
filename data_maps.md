@@ -23,7 +23,7 @@ header-img: "img/top.png"
 1.	**Berkeley Earth (monthly, global, 1x1 deg)**
 
 	* Gridded Products: [click here!](http://berkeleyearth.org/data/)
-	* Source code: [click here!] (http://berkeleyearth.org/analysis-code/)
+	* Source code: [click here!](http://berkeleyearth.org/analysis-code/)
 
 1. **NASA/GISS TEMP (monthly, global, 2x2 deg)**
 
