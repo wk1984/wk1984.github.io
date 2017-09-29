@@ -21,25 +21,22 @@ header-img: "img/top.png"
 1. Install pkgs in Anaconda - updated: 2017-09-29
 
 	1.	Create a **NEW** python environment
-
 		> * Pip 9.0.1
 		> * Python 2.7.13
 		> * Setuptools 27.2.0
 		> * Vs2008_runtime 9.00.30729.5054
 		> * Vs2015_runtime 14.0.25420
 		> * Wheel 0.29.0
-
+		
 	1. install pkgs using **Terminal** BY the **ORDER** of:
-
 		> 1. conda install -y -c conda-forge basemap
 		> 1. conda install -y pandas scipy simplejson
 		> 1. conda install -y -c conda-forge rasterio
 		> 1. pip install pyshp pycrs shapely netcdf4
 		> 1. conda install -y -c conda-forge gdal=2.0
 		> 1. conda install -c anaconda statsmodels
-	
+
 	1. install my package:
-	
 		> 1. git clone https://wk1984@bitbucket.org/wk1984/quick-analysis-and-visualization.git
 		> 1. cd quick-analysis-and-visualization
 		> 1. python setup.py install
