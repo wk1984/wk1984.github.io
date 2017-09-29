@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Evaluation of reanalysis datasets against observational soil temperature data over China
-date: 2017-09-25
+date: 2017-09-29
 categories: blog
 tags: [Soil Temperature, China, Soil, Climate, Reference, Reanalysis, Evaluation, Comparison]
 description: 
@@ -19,7 +19,6 @@ Yang, K., and J. Zhang, **2017**: Evaluation of reanalysis datasets against obse
 > - Spatial distribution of **linear trend** in summer and winter.
 > 
 > - Soil temperature **memory** in summer and winter. 
-
 
 
 <center>

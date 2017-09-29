@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spatiotemporal variations of differences between surface air and ground temperatures in China
-date: 2017-09-25
+date: 2017-09-29
 categories: blog
 tags: [Soil Temperature, Air Temperature, China, Soil, Climate, Reference, Spatiotemporal Variation, Snow Depth]
 description: 
