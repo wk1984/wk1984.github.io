@@ -8,15 +8,15 @@ header-img: "img/top.png"
 1. Softwares List (mainly for Mac) - updated: 2017-09-29
 
 	- **Github Desktop**: [https://desktop.github.com/](https://desktop.github.com/)
-	1. **MarkDown IDE for Mac OS**: [https://macdown.uranusjr.com/](https://macdown.uranusjr.com/)
-	1. **Anaconda**: [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
-	1. **QGIS**: [http://www.qgis.org/en/site/forusers/download.html](http://www.qgis.org/en/site/forusers/download.html)
-	1. **gcc & gfortran**: [http://hpc.sourceforge.net/](http://hpc.sourceforge.net/)
-	1. **NCL/NCAR**: [http://www.ncl.ucar.edu/Download/](http://www.ncl.ucar.edu/Download/)
-	1. **CDO**: [https://code.mpimet.mpg.de/projects/cdo/](https://code.mpimet.mpg.de/projects/cdo/)
-	1. **Panoply (Gridded data viewer)**: [https://www.giss.nasa.gov/tools/panoply/](https://www.giss.nasa.gov/tools/panoply/)
-	1. **Texmaker (Tex IDE)**: [http://www.xm1math.net/texmaker/](http://www.xm1math.net/texmaker/)
-	1. **MacTex (Latex for Mac OS)**:[http://www.tug.org/mactex/](http://www.tug.org/mactex/)
+	- **MarkDown IDE for Mac OS**: [https://macdown.uranusjr.com/](https://macdown.uranusjr.com/)
+	- **Anaconda**: [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
+	- **QGIS**: [http://www.qgis.org/en/site/forusers/download.html](http://www.qgis.org/en/site/forusers/download.html)
+	- **gcc & gfortran**: [http://hpc.sourceforge.net/](http://hpc.sourceforge.net/)
+	- **NCL/NCAR**: [http://www.ncl.ucar.edu/Download/](http://www.ncl.ucar.edu/Download/)
+	- **CDO**: [https://code.mpimet.mpg.de/projects/cdo/](https://code.mpimet.mpg.de/projects/cdo/)
+	- **Panoply (Gridded data viewer)**: [https://www.giss.nasa.gov/tools/panoply/](https://www.giss.nasa.gov/tools/panoply/)
+	- **Texmaker (Tex IDE)**: [http://www.xm1math.net/texmaker/](http://www.xm1math.net/texmaker/)
+	- **MacTex (Latex for Mac OS)**:[http://www.tug.org/mactex/](http://www.tug.org/mactex/)
 
 1. Install pkgs in Anaconda - updated: 2017-09-29
 
