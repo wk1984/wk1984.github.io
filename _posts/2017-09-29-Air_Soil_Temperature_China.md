@@ -8,8 +8,7 @@ description:
 header-img: img/top.png    #这篇文章标题背景图片
 ---
 
-Wang, Y., Z.-Z. Hu, and F. Yan (2017), Spatiotemporal variations of differences between surface air and ground temperatures in China, J. Geophys. Res. Atmos., 122, 7990–7999, [doi:10.1002/2016JD026110]
-(https://doi.org/10.1002/2016JD026110)
+Wang, Y., Z.-Z. Hu, and F. Yan (2017), Spatiotemporal variations of differences between surface air and ground temperatures in China, J. Geophys. Res. Atmos., 122, 7990–7999, [doi:10.1002/2016JD026110](https://doi.org/10.1002/2016JD026110)
 
 > - They analyzed the differences between soil temperature and air temperature across China by using ground-based observations.
 > - They also compared the trends of air and soil temperature.
