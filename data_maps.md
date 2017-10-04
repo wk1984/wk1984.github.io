@@ -83,19 +83,19 @@ header-img: "img/top.png"
 
 1. **European Reanalysis Interim (ERA-Interim)**
 
-[European Centre for Medium-Range Weather Forecasts (Registration required)](http://apps.ecmwf.int/datasets/data/interim-full-daily/levtype=sfc/)
+	[European Centre for Medium-Range Weather Forecasts (Registration required)](http://apps.ecmwf.int/datasets/data/interim-full-daily/levtype=sfc/)
 
-> * State-of-the-art 3rd generation reanalysis (1979-present) with robust physics and data assimilation.
-> * 0.75°x0.75° global grid with 60 vertical levels.
-> * Well suited for climate study within the satellite era.
+	> * State-of-the-art 3rd generation reanalysis (1979-present) with robust physics and data 	assimilation.
+	> * 0.75°x0.75° global grid with 60 vertical levels.
+	> * Well suited for climate study within the satellite era.
 
-<center>
-    <p><img src="http://cci-reanalyzer.org/clim/animations/scycle/World_ERAI_T2_2001-2012_minus_1979-2000_scycle.gif" align="center"></p>
-</center>
+  	<center>
+        <p><img src="http://cci-reanalyzer.org/clim/animations/scycle/World_ERAI_T2_2001-2012_minus_1979-2000_scycle.gif" align="center"></p>
+  	</center>
 
 2. **Climate Forecast System Reanalysis (CFSR)**
 
-[NOAA National Climatic Data Center](http://nomads.ncdc.noaa.gov/data.php#cfs-reanal)
+	[NOAA National Climatic Data Center](http://nomads.ncdc.noaa.gov/data.php#cfs-reanal)
 
 > * State-of-the-art 3rd generation reanalysis with robust physics and data assimilation. Includes coupled ocean and sea ice models.
 > * 0.5°x0.5° global grid with 64 vertical levels.
