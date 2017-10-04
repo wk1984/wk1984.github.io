@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: "Read and Learn English Everyday" 
+title: "Reading" 
 description: "思想有多远，我们就可以走多远. <br>(We can go as far as we thought)" 
 header-img: "img/top.png" 
 ---
