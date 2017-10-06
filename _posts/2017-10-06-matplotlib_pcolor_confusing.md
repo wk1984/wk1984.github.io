@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pcolor to show true data
-date: 2017-09-21
+date: 2017-10-06
 categories: blog
 tags: [python, matplotlib, pyplot, pcolor]
 header-img: img/top.png    #这篇文章标题背景图片
