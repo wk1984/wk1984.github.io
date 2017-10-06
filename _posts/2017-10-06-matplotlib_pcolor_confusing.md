@@ -11,12 +11,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 data = np.array([(1,3,5),(2,1,4),(5,9,0),(8,1,2)])
+data_str = np.array(data, dtype=str)
 
 x = np.arange(3)
 y = np.arange(4)
+
+for i,temp in enumerate(x):
+    for j,dump in enumerate(y):
+        
+        plt.text(x[i],y[j],data_str[j,i])
+        
 x,y = np.meshgrid(x,y)
 
-plt.pcolor(x,y,data,vmin=0, vmax=9)
+cmap = plt.colormaps()
+
+plt.pcolor(x,y,data, vmin=-0.5, vmax=9.5,cmap=plt.cm.get_cmap('tab10'))
+
+plt.colorbar(ticks=np.arange(0,10))
 
 plt.xlim([-0.5,2.5])
 plt.ylim([-0.5,3.5])
@@ -26,11 +37,13 @@ plt.yticks([0,1,2,3])
 plt.show()
 ```
 
-you will see the upper subplot.
+you will see:
 
-That is not actually what the array shows. 
+![Example Figure 1:](/img/pcolor_showing1.png "Figure 1")
 
-We need to "cheat" pcolor to make a right figure:
+That is not actually what the array shows. In other words, the colors are not consistent with the number in array.
+
+Thus, we need to "cheat" pcolor to make a right figure:
 
 ```python
 import numpy as np
@@ -59,16 +72,27 @@ def conduct_xy_for_pcolor(x, y):
 
 #==================================
 
+
 data = np.array([(1,3,5),(2,1,4),(5,9,0),(8,1,2)])
+data_str = np.array(data, dtype=str)
 
 x = np.arange(3)
 y = np.arange(4)
 
+for i,temp in enumerate(x):
+    for j,dump in enumerate(y):
+        
+        plt.text(x[i],y[j],data_str[j,i])
+        
 x, y = conduct_xy_for_pcolor(x, y) # make new x & y, see the user-defined function
-
+        
 x,y = np.meshgrid(x,y)
 
-plt.pcolor(x, y, data, vmin=0, vmax=9)
+cmap = plt.colormaps()
+
+plt.pcolor(x,y,data, vmin=-0.5, vmax=9.5,cmap=plt.cm.get_cmap('tab10'))
+
+plt.colorbar(ticks=np.arange(0,10))
 
 plt.xlim([-0.5,2.5])
 plt.ylim([-0.5,3.5])
@@ -78,6 +102,6 @@ plt.yticks([0,1,2,3])
 plt.show()
 ```
 
-Then you can get the right result as bottom shows.
+Then you can get the right result:
 
-![Example Figure:](/img/pcolor_showing.png "Figure Showing")
+![Example Figure 2:](/img/pcolor_showing2.png "Figure 2")
