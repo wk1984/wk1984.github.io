@@ -111,7 +111,8 @@ Notes: It should be **consistent generation** between gcc and gfortran from http
 
 	> ng4ex gsun01n
 
+The example looks like:
 
 <center>
-    <p><img src="img/ncl_test.png" align="center"></p>
+<p><img src="img/ncl_test.png" align="center"></p>
 </center>
