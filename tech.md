@@ -79,4 +79,37 @@ header-img: "img/top.png"
 	To test whether it is installed rightly:
 	
 	> cdo -V
+
+1. Install **NCL**:
+
+Notes: It should be **consistent generation** between gcc and gfortran from http://hpc.sourceforge.net/ and "gcc-x.y.bin.tar.gz" file. e.g, *ncl_ncarg-6.4.0-MacOS_10.12_64bit_nodap_gnu530.tar.gz* needs *gcc-5.1-bin.tar.gz*. If you install any other versions of gcc/gfortran, it would notice like:
 	
+	> dyld: Library not loaded: /usr/local/lib/libgfortran.3.dylib
+	> Referenced from: /usr/local/ncl-6.4.0/bin/ncl
+	> Reason: image not found
+	
+- Install XQuartz from [https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg](https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg)
+
+- For Bash environment: add three lines to ~/.bash, or ~/.bash_profile
+
+	> export DISPLAY=:0.0
+	> export NCARG_ROOT=/usr/local/ncl-6.4.0
+	> export PATH=$NCARG_ROOT/bin:$PATH
+	
+	Save and Quit:
+	press "esc", and input 'wq' following the ":"
+	
+	>:wq
+	
+	After that, make the change active.
+	
+	> source ~/.bash_profile
+	
+- Test whether it works well (before using NCL, you need to launch XQuartz, otherwise, it will not work!):
+
+	> ng4ex gsun01n
+
+	
+<center>
+    <p><img src="img/ncl_test.png" align="center"></p>
+</center>
