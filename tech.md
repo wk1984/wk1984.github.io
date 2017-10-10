@@ -91,9 +91,11 @@ Notes: It should be **consistent generation** between gcc and gfortran from http
 - Install XQuartz from [https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg](https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg)
 
 - For Bash environment: add three lines to ~/.bash, or ~/.bash_profile
-
+	
 	> export DISPLAY=:0.0
+	
 	> export NCARG_ROOT=/usr/local/ncl-6.4.0
+	
 	> export PATH=$NCARG_ROOT/bin:$PATH
 	
 	Save and Quit:
@@ -109,7 +111,7 @@ Notes: It should be **consistent generation** between gcc and gfortran from http
 
 	> ng4ex gsun01n
 
-	
+
 <center>
     <p><img src="img/ncl_test.png" align="center"></p>
 </center>
