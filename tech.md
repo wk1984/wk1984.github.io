@@ -18,7 +18,7 @@ header-img: "img/top.png"
 	- **Texmaker (Tex IDE)**: [http://www.xm1math.net/texmaker/](http://www.xm1math.net/texmaker/)
 	- **MacTex (Latex for Mac OS)**:[http://www.tug.org/mactex/](http://www.tug.org/mactex/)
 
-1. Install pkgs in Anaconda - updated: 2017-09-29
+1. Install packages in Anaconda - updated: 2017-09-29
 
 	1.	Create a **NEW** python environment
 		> * Pip 9.0.1
@@ -43,3 +43,40 @@ header-img: "img/top.png"
 		
 	1. test:
 		> print -c "from QuickPlots import QuickPlots"
+		
+1. Install **MacPorts** - updated: 2017-10-10
+
+	1. Install **Xcode**: Huge file > 5 GB 
+		
+		[Apple Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+		
+		see details: [https://guide.macports.org/#installing.xcode](https://guide.macports.org/#installing.xcode)
+			
+	1. Install **Xcode Command Line Tools**:
+	
+		> xcode-select --install
+	
+	1. Agree to Xcode license in Terminal:
+
+		> sudo xcodebuild -license
+		
+	1. Download and install MacPorts for your version of the Mac operating system:
+
+		- [High Sierra 10.13](https://github.com/macports/macports-base/releases/download/v2.4.2/MacPorts-2.4.2-10.13-HighSierra.pkg)
+		- [Sierra 10.12](https://github.com/macports/macports-base/releases/download/v2.4.2/MacPorts-2.4.2-10.12-Sierra.pkg)
+		- [El Capitan 10.11](https://github.com/macports/macports-base/releases/download/v2.4.2/MacPorts-2.4.2-10.11-ElCapitan.pkg)
+
+		Just Double-Click pkg file!
+		
+1. Install **CDO** by using MacPorts:
+
+	CDO = **C**limate **D**ata **O**perators
+	
+	Homepage = [https://code.zmaw.de/projects/cdo](https://code.zmaw.de/projects/cdo)
+	
+	> sudo port install cdo
+	
+	To test whether it is installed rightly:
+	
+	> cdo -V
+	
