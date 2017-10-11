@@ -80,6 +80,25 @@ header-img: "img/top.png"
 	
 	> cdo -V
 
+1.	Install **ILAMB** in Anaconda.
+
+	- create a new env for installing ILAMB (**recommend**)
+	- install all requirements:
+	
+		> conda install -c conda-forge -y numpy matplotlib netcdf4=1.2.4 sympy scipy mpi4py cfunits basemap
+		
+	- download **ilamb** from Bitbucket, then install:
+	
+		> git clone https://wk1984@bitbucket.org/ncollier/ilamb.git
+		
+		> cd ilamb
+		
+		> python setup.py install
+		
+	- test:
+
+		> python -c "import ILAMB; print ILAMB.__version__" 
+
 1. Install **NCL**:
 
 Notes: It should be **consistent generation** between gcc and gfortran from http://hpc.sourceforge.net/ and "gcc-x.y.bin.tar.gz" file. e.g, *ncl_ncarg-6.4.0-MacOS_10.12_64bit_nodap_gnu530.tar.gz* needs *gcc-5.1-bin.tar.gz*. If you install any other versions of gcc/gfortran, it would notice like:
@@ -116,3 +135,4 @@ The example looks like:
 <center>
 <p><img src="/img/ncl_test.png" align="center"></p>
 </center>
+-----
