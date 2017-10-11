@@ -40,7 +40,7 @@ header-img: "img/top.png"
 		
 		> 1. conda install -y -c conda-forge basemap=1.1 pandas=0.20.3 scipy=0.19.1 simplejson=3.11.1 gdal=2.0 rasterio=0.25.0 shapely=1.6.1 netcdf4 pyshp=1.2.12 statsmodels=0.8.0
 		
-		> 1. pip install pycrs=0.1.3		
+		> 1. pip install pycrs==0.1.3		
 		
 	1. install my package:
 		> 1. git clone https://wk1984@bitbucket.org/wk1984/quick-analysis-and-visualization.git
@@ -48,7 +48,16 @@ header-img: "img/top.png"
 		> 1. python setup.py install
 		
 	1. test:
+	
+		> python -c "from QuickPlots import QuickPlots"
+		
 		> python -c "import QuickPlots;print QuickPlots.__version__"
+		
+	1. Q&A:
+	
+		- Library not loaded: @loader_path/./libgssapi_krb5.2.2.dylib
+			
+			> conda install krb5
 		
 1. Install **MacPorts** - updated: 2017-10-10
 
