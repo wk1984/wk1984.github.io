@@ -29,20 +29,26 @@ header-img: "img/top.png"
 		> * Wheel 0.29.0
 		
 	1. install pkgs using **Terminal** BY the **ORDER** of:
-		> 1. conda install -y -c conda-forge basemap
+		> 1. conda install -y -c conda-forge basemap 
 		> 1. conda install -y pandas scipy simplejson
 		> 1. conda install -y -c conda-forge rasterio
 		> 1. pip install pyshp pycrs shapely netcdf4
 		> 1. conda install -y -c conda-forge gdal=2.0
 		> 1. conda install -c anaconda statsmodels
-
+		
+		**OR specify the version**
+		
+		> 1. conda install -y -c conda-forge basemap=1.1 pandas=0.20.3 scipy=0.19.1 simplejson=3.11.1 gdal=2.0 rasterio=0.25.0 shapely=1.6.1 netcdf4 pyshp=1.2.12 statsmodels=0.8.0
+		
+		> 1. pip install pycrs=0.1.3		
+		
 	1. install my package:
 		> 1. git clone https://wk1984@bitbucket.org/wk1984/quick-analysis-and-visualization.git
 		> 1. cd quick-analysis-and-visualization
 		> 1. python setup.py install
 		
 	1. test:
-		> print -c "from QuickPlots import QuickPlots"
+		> python -c "import QuickPlots;print QuickPlots.__version__"
 		
 1. Install **MacPorts** - updated: 2017-10-10
 
