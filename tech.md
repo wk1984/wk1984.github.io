@@ -38,7 +38,7 @@ header-img: "img/top.png"
 		
 		**OR specify the version**
 		
-		> 1. conda install -y -c conda-forge basemap=1.1 pandas=0.20.3 scipy=0.19.1 simplejson=3.11.1 gdal=2.0 rasterio=0.25.0 shapely=1.6.1 netcdf4 pyshp=1.2.12 statsmodels=0.8.0
+		> 1. conda install -y -c conda-forge basemap=1.1 pandas=0.20.3 scipy=0.19.1 simplejson=3.11.1 gdal=2.0 rasterio=0.25.0 shapely=1.6.1 netcdf4 pyshp=1.2.12 statsmodels=0.8.0 krb5=1.14.2
 		
 		> 1. pip install pycrs==0.1.3		
 		
