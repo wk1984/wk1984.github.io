@@ -76,5 +76,19 @@ cd jasper-1.900.0
 ./configure CFLAGS=-fPIC -prefix=$INSTALL_ROOT
 make all install
 
+wget https://software.ecmwf.int/wiki/download/attachments/3473437/grib_api-1.24.0-Source.tar.gz
+tar -zxvf grib_api-1.24.0-Source.tar.gz
+cd grib_api-1.24.0-Source
+./configure CFLAGS=-fPIC --prefix=$INSTALL_ROOT --with-netcdf=$INSTALL_ROOT --with-jasper=$INSTALL_ROOT --disable-jpeg
+make && make install
+cd ..
+
+wget http://download.osgeo.org/proj/proj-4.9.3.tar.gz
+tar -zxvf proj-4.9.3.tar.gz
+cd tar -zxvf proj-4.9.3
+./configure CFLAGS=-fPIC prefix=$INSTALL_ROOT --enable-static=yes --enable-shared=no
+make && make install
+cd ..
+
 ```
 
