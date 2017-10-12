@@ -85,7 +85,7 @@ cd ..
 
 wget http://download.osgeo.org/proj/proj-4.9.3.tar.gz
 tar -zxvf proj-4.9.3.tar.gz
-cd tar -zxvf proj-4.9.3
+cd proj-4.9.3
 ./configure CFLAGS=-fPIC prefix=$INSTALL_ROOT --enable-static=yes --enable-shared=no
 make && make install
 cd ..
