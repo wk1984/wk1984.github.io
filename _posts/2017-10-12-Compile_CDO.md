@@ -11,6 +11,8 @@ Due to CDO installation by using MacPorts still has some issues, I need to compi
 
 Here is a tracking of entire processes, including various libs and cdo.
 
+ISSUE - 1:  
+
 **Bug occured in compiling jasper.** Need to be fixed.
 
 ```bash
@@ -19,6 +21,8 @@ make[2]: *** [all-recursive] Error 1
 make[1]: *** [all-recursive] Error 1
 make: *** [all-recursive] Error 1
 ```
+
+**Solution:** It may be caused by the change of compilation method. To solute this issue, please move to old version (jasper-1.900.0.zip)
 
 Script:
 
@@ -66,10 +70,10 @@ cd netcdf-c-4.4.1.1
 make all install
 cd ..
 
-wget http://www.ece.uvic.ca/~frodo/jasper/software/jasper-1.900.29.tar.gz
-tar -zxvf jasper-1.900.29.tar.gz
-cd jasper-1.900.29
-./configure CFLAGS=-fPIC prefix=$INSTALL_ROOT
+wget http://www.ece.uvic.ca/~frodo/jasper/software/jasper-1.900.0.zip
+tar -zxvf jasper-1.900.0.tar.gz
+cd jasper-1.900.0
+./configure CFLAGS=-fPIC -prefix=$INSTALL_ROOT
 make all install
 
 ```
