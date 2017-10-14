@@ -57,6 +57,11 @@ header-img: img/top.png    #这篇文章标题背景图片
     Igore the information above. That is only because the cmd "cp src/eemd.h" does not work.
 
     We can copy the file "src/eemd.h" manually.
+    
+    OR remove “eemd.h” in **line 30**:
+    
+    > all: libeemd.so.$(version) libeemd.a
+    
 
  *    > cd ..
 
