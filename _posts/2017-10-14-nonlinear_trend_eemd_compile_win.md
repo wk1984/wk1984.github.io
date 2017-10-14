@@ -40,19 +40,18 @@ header-img: img/top.png    #这篇文章标题背景图片
 
 1. Compile **libeemd**:
 
- *    > make
+	> make
 
 	It will be warning:
 
-
 	```bash
-	1 [main] make 5020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
-    the public mailing list cygwin@cygwin.com
-    make: uname: Command not found
-    cp src/eemd.h eemd.h
-    make: cp: Command not found
-    Makefile:60: recipe for target `eemd.h' failed
-    make: *** [eemd.h] Error 127
+                1 [main] make 5020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+                the public mailing list cygwin@cygwin.com
+                make: uname: Command not found
+        cp src/eemd.h eemd.h
+        make: cp: Command not found
+        Makefile:60: recipe for target `eemd.h' failed
+        make: *** [eemd.h] Error 127
     ```
 -
     Igore the information above. That is only because the cmd "cp src/eemd.h" does not work.
@@ -62,7 +61,7 @@ header-img: img/top.png    #这篇文章标题背景图片
     > all: libeemd.so.$(version) libeemd.a
     
 
- *    > cd ..
+     > cd ..
 
 1. Install **pyeemd**:
  *    > cd pyeemd
