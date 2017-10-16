@@ -73,7 +73,7 @@ header-img: "img/top.png"
 	
 1. **Permafrost map**
 
-	* NH IPA: [<span style="color:blue">NSIDC FTP</span>](ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd318_map_circumarctic/)
+	* NH IPA: [<span style="color:blue">NSIDC FTP</span>](ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd318_map_circumarctic/); **or** NetCDF(0.5 deg): [<span style="color:blue">Download</span>](zips/Permafrost.nc.zip)
 	* China: [<span style="color:blue">NSIDC FTP</span>](ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd603_pf_maps_china/)
 	* Russia: [<span style="color:blue">NSIDC FTP</span>](ftp://sidads.colorado.edu/pub/DATASETS/fgdc/ggd600_russia_pf_maps/)
 
