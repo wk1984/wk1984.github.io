@@ -24,8 +24,8 @@ header-img: img/top.png    #这篇文章标题背景图片
  *    > conda install -c msys2 m2w64-gsl
  *    > conda install -c msys2 m2w64-gcc
 1. Clone repos:
- *    >  git clone https://wk1984@bitbucket.org/luukko/libeemd.git
- *    >  git clone https://wk1984@bitbucket.org/luukko/pyeemd.git
+ *    >  git clone https://bitbucket.org/luukko/libeemd.git
+ *    >  git clone https://bitbucket.org/luukko/pyeemd.git
     
 1. Goto **libeemd**:
  *    > cd libeemd
