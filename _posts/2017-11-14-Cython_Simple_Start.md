@@ -13,11 +13,11 @@ It can automatically convert python function to C language, and compile to a lib
 
 Let's knock the door!
 
-###Installation###
+##Installation##
 
 > conda install cython
 
-###Hello World###
+##Hello World##
 
 <center>
     <p><img src="/img/fbbe4cc313cb4db8b3d41a2439a10e76.jpeg" align="center"></p>
@@ -50,6 +50,6 @@ Let's knock the door!
 	
 	It will print out "Hello World".
 	
-###Details###
+##Details##
 
 See: [http://docs.cython.org/en/latest/](http://docs.cython.org/en/latest/)
