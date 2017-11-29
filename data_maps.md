@@ -91,7 +91,7 @@ header-img: "img/top.png"
 	> * Well suited for climate study within the satellite era.
 
 <center>
-<p><img src="http://cci-reanalyzer.org/clim/animations/scycle/World_ERAI_T2_2001-2012_minus_1979-2000_scycle.gif" align="center"></p>
+<p><img src="http://pamola.um.maine.edu/fcst_frames/GFS-025deg/DailySummary/GFS-025deg_NH-SAT1_T2_anom.png" align="center"></p>
 </center>
 
 1. **Climate Forecast System Reanalysis (CFSR)**
@@ -103,6 +103,6 @@ header-img: "img/top.png"
 	> * Well suited for climate study within the satellite era.
 
 <center>
-<p><img src="http://cci-reanalyzer.org/clim/animations/scycle/NH_SnowIceVeg_scycle.gif" align="center"></p>
+<p><img src="http://pamola.um.maine.edu/fcst_frames/GFS-025deg/DailySummary/GFS-025deg_NH-SAT1_SEAICE-SNOW.png" align="center"></p>
 </center>
 
